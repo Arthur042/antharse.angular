@@ -1,0 +1,4 @@
+<div id="page-top" [ngClass]="{'dark-theme' : newTheme === 'moon'}">
+    <app-nav (themeEmitter)="theme($event)"></app-nav>
+    <router-outlet></router-outlet>
+</div>

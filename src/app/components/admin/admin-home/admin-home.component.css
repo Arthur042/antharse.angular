@@ -1,0 +1,34 @@
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+th, td {
+    vertical-align: middle;
+}
+
+td{
+    text-align: left;
+}
+
+.trash, .update{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.trash{
+    color: rgb(181, 20, 20);
+    transition: all .25s;
+}
+
+.trash:hover{
+    color: rgb(255, 0, 0);
+}
+
+.update{
+    transition: all .25s;
+}
+
+.update:hover{
+    color: rgb(17, 14, 14);
+}
